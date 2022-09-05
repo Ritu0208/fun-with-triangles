@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root {
-    font-family: 'Cormorant SC', serif;
+    font-family: 'Playfair Display', serif;
     --light-color: #5b21b6;
-    --dark-color: #1f2937;
+    --dark-color: #294166;
     --text-color: white;
 }
 
@@ -15,6 +15,7 @@ body{
 nav {
     background-color: var(--light-color);
     padding: 1.5rem;
+    box-shadow: 0px 1px 2px #000;
 }
 
 a {
@@ -42,12 +43,14 @@ div {
     margin: auto;
     width: 30%;
     padding: 0.5rem;
+    border: 1px solid #000 ;
 }
 .side-input{
     display: block;
     margin: auto;
     width: 30%;
     padding: 0.5rem;
+    border: 0.5px solid #000 ;
 }
 
 button {
@@ -55,13 +58,18 @@ button {
     margin: auto;
     font-family: 'Cormorant SC', serif;
     font-size: 1.5rem;
-    margin-top: 2rem;
-    border-radius: 0.5rem;
-    padding: 0.8rem;
-    border-style: none;
+    border-color: #000 ;
     background-color: var(--light-color);
     color: var(--text-color);
     cursor: pointer;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px
 }
 
 h1 {
